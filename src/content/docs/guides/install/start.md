@@ -36,12 +36,41 @@ Verificar el **".ini"** que estén con la configuración corresondiente para el 
 
 - Al iniciar el programa veremos la siguiente ventana
 
-  <Image src="#" alt="Ventana de inicio del dsedit" width= "350" height= "350">
+  <Image src="/src/assets/images/d1.png" alt="Ventana de inicio del dsedit" width= "550" height= "550">
 
-- **Enlace a los servidores** 
+- Continuando creando un server
+
+  <Image src="/src/assets/images/d2.png" alt="Ventana de inicio del dsedit" width= "550" height= "550">
+
+  Le damos click derecho y en add
+  
+  <Image src="/src/assets/images/d3.png" alt="Ventana de inicio del dsedit" width= "350" height= "250">
+
+  Colocamos el nombre del server y en **OK**.
+
+  <Image src="/src/assets/images/d4.png" alt="Ventana de inicio del dsedit" width= "550" height= "550">
+
+  Le asignamos una dirección con un click derecho en **SERVER ADDRESS** y luego click en **Modify Atribute**
+
+  <Image src="/src/assets/images/d5.png" alt="Ventana de inicio del dsedit" width= "450" height= "550">
+
+  Presionamos en **ADD** para añadir una dirección.
+
+  <Image src="/src/assets/images/d6.png" alt="Ventana de inicio del dsedit" width= "450" height= "550">
+
+  Insertamos la dirección **IP** correspondiente y en **OK**
+
+  <Image src="/src/assets/images/d7.png" alt="Ventana de inicio del dsedit" width= "450" height= "550">
+
   :::tip[Pequeña recomendación]
     Después de la configuración cerrar el programa para guardar los cambios.
   :::
+  
+  <Image src="/src/assets/images/d8.png" alt="Ventana de inicio del dsedit" width= "450" height= "550">
+  
+
+- **Enlace a los servidores** 
+  
   - SYBASE
   ```sh title="CONFIG"
     Server Name = sybase
