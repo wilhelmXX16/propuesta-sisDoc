@@ -30,20 +30,20 @@ export default defineConfig({
         ],
         // sidebar de la documentación
         sidebar: [
-            {
-                label: 'SGF',
-                items: [
-                    // Each item here is one entry in the navigation menu.
-                    { 
-                        label:'Antes de Iniciar', 
-                        items: [
-                            {label: 'Instalación cliente base' , slug: 'guides/install/start'},
-                        ]
-                    },
-                    { label: 'Example Guide', slug: 'guides/example' },
-                    { label: 'Example Guide', slug: 'guides/examples'},
-                ],
-            },
+            // {
+            //     label: 'SGF',
+            //     items: [
+            //         // Each item here is one entry in the navigation menu.
+            //         { 
+            //             label:'Antes de Iniciar', 
+            //             items: [
+            //                 {label: 'Instalación cliente base' , slug: 'guides/install/start'},
+            //             ]
+            //         },
+            //         { label: 'Example Guide', slug: 'guides/example' },
+            //         { label: 'Example Guide', slug: 'guides/examples'},
+            //     ],
+            // },
             {
                 label: 'Tramites',
                 items: [
