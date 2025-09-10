@@ -7,12 +7,28 @@ import markdoc from '@astrojs/markdoc';
 // https://astro.build/config
 export default defineConfig({
     integrations: [starlight({
-        title: 'MPFN',
-        logo: {
-            src: '/src/assets/Logo_Ministerio_Público_Perú.png',
-            replacesTitle: true,
+        title: 'INTRANET DF-PASCO',
+        //idioma por defecto español
+        locales:{
+            root:{
+                 label: 'Español',
+                 lang: 'es',
+            },
         },
-        social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+        logo: {
+            light: '/src/assets/images/Horizontal-escudo.png',
+            dark: '/src/assets/images/image.png',
+            replacesTitle: true,
+
+        },
+        // para poner un icono a alguna página social 
+        social: [{ icon: 'laptop', label: 'Intranet', href: 'http://10.23.100.17/intranetpasco' }],
+        //custom styles
+        customCss: [
+                // Ruta relativa a tu archivo CSS personalizado
+        './src/style/custom.css',
+        ],
+        // sidebar de la documentación
         sidebar: [
             {
                 label: 'SGF',
@@ -26,6 +42,12 @@ export default defineConfig({
                     },
                     { label: 'Example Guide', slug: 'guides/example' },
                     { label: 'Example Guide', slug: 'guides/examples'},
+                ],
+            },
+            {
+                label: 'Tramites',
+                items: [
+                    { label: 'Certificado Digital', slug: 'formalities/digital-certificate' },
                 ],
             },
             {

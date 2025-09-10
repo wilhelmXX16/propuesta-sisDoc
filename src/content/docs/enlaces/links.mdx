@@ -1,0 +1,29 @@
+---
+title: Enlaces más usados
+template: splash
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard } from '@astrojs/starlight/components';
+
+
+<CardGrid class= 'card_links'>
+	<Card title="Sistemas MPFN" icon="open-book" >
+		<LinkCard title="ir a la página" href="https://sistemas.mpfn.gob.pe/" />
+	</Card>
+	<Card title="Sistemas 2 MPFN" icon="open-book">
+		<LinkCard title="ir a la página" href="https://sistemas2.mpfn.gob.pe/" />
+	</Card>
+	<Card title="Carpeta Electrónica Administrativa" icon="pen">
+		<LinkCard title="ir a la página" href="https://cea.mpfn.gob.pe/" />
+	</Card>
+	<Card title="Carpeta Electrónica Administrativa 2" icon="pen">
+		<LinkCard title="ir a la página" href="https://cea2.mpfn.gob.pe/" />
+	</Card>
+	<Card title="MSIAP" icon="document">
+		<LinkCard title="ir a la página" href="https://msiap.pj.gob.pe/msiap/faces/login.jsp" />
+	</Card>
+	<Card title="Read the docs" icon="open-book">
+		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	</Card>
+</CardGrid> 

@@ -65,11 +65,11 @@ Verificar el **".ini"** que estén con la configuración corresondiente para el 
   :::tip[Pequeña recomendación]
     Después de la configuración cerrar el programa para guardar los cambios.
   :::
-  
+
   <Image src="/src/assets/images/d8.png" alt="Ventana de inicio del dsedit" width= "450" height= "550">
   
 
-- **Enlace a los servidores** 
+## Enlace a los servidores
   
   - SYBASE
   ```sh title="CONFIG"

@@ -3,26 +3,34 @@ title: Bienvenidos
 description: Get started building your docs site with Starlight.
 template: splash
 hero:
-  tagline: Propuesta sistema de documentación!
+  tagline: Esta es una plataforma virtual de ayuda con trámites, configuraciones y otras necesidades.
   image:
     file: ../../../public/Logo.png
   actions:
-    - text: Documentación
-      link: /guides/install/start
-      icon: right-arrow
-    # - text: Read the Starlight docs
-    #   link: https://starlight.astro.build
-    #   icon: external
-    #   variant: minimal
+	
+    - text: Trámite Documentario
+      link: /formalities/digital-certificate
+      icon: document 
+	  
+    - text: Enlaces más usados
+      link: /enlaces/links
+      icon: external  
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard, LinkButton } from '@astrojs/starlight/components';
+import {Steps} from '@astrojs/starlight/components'
 
-{/* ## Next steps
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+## ¿Necesita Ayuda? ⚙️
+
+<CardGrid>
+
+	<LinkCard title="Certificado Digital" href="formalities/digital-certificate" />
+	<LinkCard title="Certificado Digital" href="formalities/digital-certificate" />
+	<LinkCard title="Certificado Digital" href="formalities/digital-certificate" />
+	<LinkCard title="Certificado Digital" href="formalities/digital-certificate" />
+	{/* <Card title="Certificado Digital" icon="pencil">
+		<LinkButton href="/getting-started/">Instructivo</LinkButton>
 	</Card>
 	<Card title="Add new content" icon="add-document">
 		Add Markdown or MDX files to `src/content/docs` to create new pages.
@@ -32,5 +40,6 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 	</Card>
 	<Card title="Read the docs" icon="open-book">
 		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid> */}
+	</Card> */}
+</CardGrid> 
+
